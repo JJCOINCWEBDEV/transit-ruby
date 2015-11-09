@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
     public_key_path = nil  # not yet supported
   else
     spec.files    = files - jruby_files
-    spec.add_dependency "oj",                             "~> 2.10.1"
+    spec.add_dependency "oj",                             "~> 2.13.0"
     spec.add_dependency "msgpack",                        "~> 0.5.8"
     spec.add_development_dependency "yard",               "~> 0.8.7.4"
     spec.add_development_dependency "redcarpet",          "~> 3.1.1"
